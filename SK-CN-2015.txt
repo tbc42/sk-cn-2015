@@ -1,0 +1,145 @@
+﻿Research aim targets, originality and topicality of the research objective (max. 15 000 characters):
+
+
+STATE OF THE ART
+
+
+In less than a decade, efforts like Linked Data and the Open Data movement have flooded the Web with huge amounts of structured data. Such data sources are built with technologies crafted for the Semantics Web (SW), they are commonly represented using the Resource Description Framework (RDF) (Beckett, 2004) and it is aligned with semantic vocabularies (ontologies) commonly represented in OWL (W3C, 2012) whose semantic basis is derived from description logics (DL) (Baader et al., 2003). Data from bioinformatics (http://bio2rdf.org/), geography (http://www.geonames.org/, http://linkedgeodata.org/) or collections from governmental agencies (e.g., http://datahub.io/, but also national portals such as http://www.data.gv.at/), among others, are already publicly available thanks to very active open data initiatives. In particular, the Linked Open Data (LOD; http://linkeddata.org) community promotes publishing such structured data on the Web and interconnecting data sources by means of dereferenceable identifiers (Bizer et al., 2009). This simple paradigm pushes the traditional document-centric perspective of the Web to a data-centric view, emerging a huge shared infrastructure connecting data from different domains which can be browsed and queried together as a huge knowledge base with standard query languages such as SPARQL (Harris & Seaborne, 2013).
+
+
+Several research areas have emerged aside (or resurfaced strongly), such as efficient RDF representation (Fernández et al., 2013) and indexing (Harth et al., 2007) and optimized graph querying (Schmidt, 2010) on the basis of SPARQL, ontological reasoning (Polleres et al., 2013), and many others (schema mapping, graph visualization, etc.). Most of these applications, though, consider a static snapshot of datasets, disregarding the dynamic nature of Web data, a lifecycle without order nor generally established policies. Acknowledging that this could cope the requirements of some information services, more advanced requirements, such as longitudinal querying over time and queries regarding of the evolution of data, cannot be achieved. Consider, for instance, the open data portals of certain governments. These portals usually have several contributors from different governmental agencies, or even try to provide a unique access point to information from diverse governmental levels. Recent projects monitoring Open Data portals, such as the Open Data Portal Watch (Umbrich et al., 2015) and the Open Data Monitor (http://www.opendatamonitor.eu/), reinforce the idea that these portals are growing unconstrained. Similarly in Linked Open Data, LODStats (http://stats.lod2.eu/), a project constantly monitoring the LOD, reports (in March 2015) 4223 live datasets having almost 90 billion triples, in contrast to 5018 (54.3%) datasets which present problems for retrieving. Similar problems were previously reported by (Umbrich et al., 2010), and recently by the Dynamic Linked Data Observatory (Käfer et al., 2013), which also provides the raw corpora, openly and continuously. Its latest studies found that 38% of 80K crawled Linked Data documents had changed in a seven-month window. All this without a centralized monitoring nor prefixed policy, following the scale-free nature of the Web. Applications and businesses leveraging the availability of certain data over time, and seeking to track data or conduct studies on the evolution of data, thus need to build their own infrastructures to preserve and query data over time. Moreover, at the schema level, unstable vocabularies do not foster its reuse as inconsistencies can be produced, which can lead to a total failure of a system, such as an inference tool.
+
+
+Thus, preservation policies on Linked Data collections emerge as a novel topic with the goal of assuring quality and traceability of datasets over time. However, previous experiences in traditional Web archives, such as the Internet Archive (http://archive.org), with petabytes of archived information, already highlight scalability problems when managing evolving volumes of information at Web-scale, making the task of longitudinal query across time a formidable challenge with current tools (Weikum et al., 2011). It needs to be stressed that querying Web archives has to deal mainly with text, whereas structured interlinked data archiving shall focus on structured queries across time.
+
+
+Several research efforts  address the challenge of versioning/archiving the increasingly dynamic data exposed as Linked Data. Initial policies/strategies (Fernández et al.,2015) mainly consider three design models, namely independent copies (IC), change-based (CB) and timestamp-based (TB) approaches. In IC, each version is managed as a different, isolated dataset. Conversely, a baseline version and differences (deltas) between consecutive versions are stored in CB. Finally, in TB each statement locally holds the validity of the version, whereas in a range or just denoting modifications (typically version numbers or timestamps of addition and deletion). In general, these strategies are not implemented at large scale, and existing archiving infrastructures do not support structured and time-traversing queries in demand: for instance, knowing if a dataset, or a particular entity has changed goes beyond the current expressiveness of SPARQL itself, but, notably, also beyond the capability of most temporal extensions of SPARQL (Grandi, 2010) and annotated RDF (Zimmermann et al., 2012).
+
+
+The issues of knowledge change in time but as well with changing context was studied in knowledge representation. Reasoning about information in different time is often handled by temporal logics such as LTL (Pnueli, 1977) and CTL (Emerson & Clarke 1982). Such logics were adapted into temporal DL that can be used to reason about ontological classes, axioms, and statements w.r.t. their evolution in time (see Lutz et al., 2008). 
+
+
+However knowledge coming from different sources – as it is often the case when dealing with a number of LOD data sources – may be influenced by any context in general, not just the time. Such contextual meta-information needs to be explicitly treated and used in reasoning (McCarthy, 1993). Time, location and topic, but as well provenance, and intended audience are among the typically studied contextual dimensions that may influence knowledge (Lenat 1998, Benerecetti 2002). More recently there were also proposals to contextualize knowledge on the Semantic Web: e.g., Named Graphs (Carroll et al. 2005) allow basic identification of pieces of RDF data by URIs which can consecutively be reasoned with; more recently Contextualized Knowledge Repositories (Homola et al. 2010, Serafini & Homola 2012) allow to explicitly annotate different chunks of SW knowledge by contextual dimensions, and to import and reuse knowledge between them contextually.
+
+
+Another approach that may be useful to reason about archived versions of LOD data sources is metamodelling. Here complex constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with similarly as in classical higher-order logic (Henkin 1950). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Particularly Homola et al. (2014) and Kubincová et al. (2015) propose an expressive metamodelling language fully compatible with current OWL (W3C 2012). 
+
+
+Moreover due to expressive limitations of current LOD/SW representation languages (the above mentioned inability to express higher-order constructs, but also the unavailability of n-ary relations), approximate and heterogeneous modelling may occur in different LOD data sources. For example a relationship that is captured directly as a property in one data source, may be reified in another data source if it becomes ternary; similarly also a class in one data source may be reified into an object in another. The researches on the Slovak side were involved in a proposal how to explicitly capture and align the underlying heterogeneities in such LOD vocabularies (Svátek et al. 2013). This issue is highly relevant also when dealing with multiple archived versions of related LOD data sources and their evolution.
+
+
+MOTIVATION AND OBJECTIVES
+
+
+As we outlined above, support for archiving and evolution of LOD data sources has become a very relevant research direction. While elementary support for distinguishing between versions (e.g., Named Graphs) and expressing and storing elementary changes is already provided, there is a highly relevant need to express also the relation between the particular pieces of data in the different versions and to make explicit links between changes in data and between the changes in the relevant contextual information that may help to provide novel reasoning and querying capabilities not only over different version in separation, but also over a set of versions as a whole, i.e., reasoning and querying about change (e.g., answering questions about how and why certain information has evolved). 
+
+
+While there is relevant existing research in the area of knowledge representation as we surveyed above, particular problems related to versioning and evolution of LOD data sources that are still open include: (a) what kinds of contextual meta information are the most relevant in relation to evolution of LOD data sources, how they should be coupled with LOD representation languages such as RDF; (b) what kinds of semantic heterogeneities may result from evolution of LOD datasets and vocabularies and how they can be captured and taken into the account; (c) how this additional meta information and the expressed relations between the versions should be reused during inference to provide effective reasoning and querying. 
+
+
+Within the frame of this project we plan to pursue the following specific objectives in this respect:
+
+
+Objective 1: To investigate the types of contextual meta information (including time, but also other contextual dimensions) that is relevant to the problem of combining and reasoning with different versions of LOD sources, together with suitable representational languages and reasoning algorithms.
+
+
+Objective 2: To investigate knowledge heterogeneity that may be introduced between the versions of LOD data sources (e.g., one may choose to reify a property in the next version). And to find ways for recognition and treatment of these heterogeneities when combining multiple sources in reasoning.
+
+
+Objective 3: Investigating on specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
+
+
+REFERENCES 
+
+
+Baader, F. et al. 2003. The Description Logic Handbook. Cambridge University Press.
+
+
+D. Beckett (2004). RDF/XML Syntax Specification (Revised). W3C Recommendation.
+
+
+Benerecetti, M., Bouquet, P., & Ghidini, C. (2001). On the dimensions of context dependence: Partiality, approximation, and perspective. In Modeling and Using Context (pp. 59-72). Springer.
+
+
+Bizer, C., Heath, T., & Berners-Lee, T. (2009). “Linked Data - The Story So Far.” International Journal on Semantic Web and Information Systems 5:1–22
+
+
+Carroll, J. J., Bizer, C., Hayes, P., & Stickler, P. (2005). Named graphs. J Web Sem 3(4):247-267
+
+
+Emerson, E.A. , Clarke, & E.M. (1982). Using branching time logic to synthesize synchronization skeletons. In Sci. Comput. Programming 2:241–266
+
+
+Fernández, J. D., Martínez-Prieto, M. A., Gutiérrez, C., Polleres, A., & M. Arias (2013). “Binary RDF Representation for Publication and Exchange (HDT).” J  Web Sem. 19:22–41
+
+
+Fernández, J. D., Polleres, A., & Umbrich, J. (2015). Towards Efficient Archiving of Dynamic Linked Open Data. In Proc. of DIACHRON, to appear.
+
+
+Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
+
+
+Grandi, F. (2010). T-SPARQL: A TSQL2-like Temporal Query Language for RDF. In Proc. of ADBIS, pages 21–30.
+
+
+Harris, S., & Seaborne, A. (2013). SPARQL 1.1 Query Language. W3C Recommendation.
+
+
+Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
+
+
+Henkin, L. (1950). Completeness in the theory of types. Journal of Symbolic Logic 15: 81–91.
+
+
+Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
+
+
+Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In Procs. of DL, 567-578.
+
+
+Käfer, T., Abdelrahman, A., Umbrich, J., O’Byrne, P. & Hogan, A. (2013). Observing Linked Data Dynamics. In Proc. of ESWC, pages 213–227.
+
+
+Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In Procs. of DL.
+
+
+Lenat, D. (1998). The dimensions of context-space. Technical report, CYCCorp.
+
+
+Lutz, C., Wolter, F., & Zakharyaschev, M. (2008). Temporal Description Logics: A Survey. In TIME (pp. 3-14).
+
+
+J. McCarthy (1993). Notes on formalizing context. Proc. IJCAI-93, Chambéry, France, pp. 555–560
+
+
+Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
+
+
+Polleres, A., Hogan, A., Delbru, R., Umbrich, J. (2013). RDFS and OWL Reasoning for Linked Data. In Reasoning Web. Semantic Technologies for Intelligent Data Access, Springer
+
+
+Pnueli, A. (1977). The temporal logic of programs. In Proc. of the 18th Annual Symposium on Foundations of Computer Science (FOCS), 46–57. 
+
+
+Serafini, L., & Homola, M. (2012). Contextualized knowledge repositories for the semantic web. J Web Sem. 12:64-87
+
+
+Schmidt, M., Meier, M., & Lausen, G. (2010). “Foundations of SPARQL Query Optimization.” In: Proc. of ICDT, 4–33
+
+
+Svátek, V., Homola, M., Kluka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In Proc. of OWLED.
+
+
+Weikum, G., Ntarmos, N. , Spaniol, M., Triantafillou, P. , Benczúr, A. , Kirkpatrick, S., Rigaux, P., & Williamson, M. (2011) . Longitudinal Analytics on Web Archive Data: It’s About Time! In Proc. of CIDR, 199–202.
+
+
+Umbrich, J., Hausenblas, M., Hogan, A. Polleres, A., & Decker, S.  (2010). Towards Dataset Dynamics: Change Frequency of Linked Open Data Sources. In Proc. of LDOW
+
+
+Umbrich, J., Neumaier, S., & Polleres, A. (2015). Towards assessing the quality evolution of Open Data portals. In Proc. of ODQ
+
+
+W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
+
+
+Zimmermann, A., Lopes, N., Polleres, A., & Straccia, U. (2012). A General Framework for Representing, Reasoning and Querying with Annotated Semantic Web Data. J. Web Sem 12:72-95.
