@@ -1,1 +1,45 @@
-TODO
+PROJECT TITLE:
+
+SHORT PROJECT DESCRIPTION (ANNOTATION):
+
+
+RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX. 15 000 CHARACTERS):
+
+*** State of the art ***
+
+
+*** Motivation and objectives ***
+
+   Objective 1: To investigate the types of contextual meta information (including time, but also other contextual dimensions) that is relevant to the problem of combining and reasoning with different versions of LOD sources, together with suitable representational languages and reasoning algorithms.
+
+   Objective 2: To investigate knowledge heterogeneity that may be introduced between the versions of LOD data sources (e.g., one may choose to reify a property in the next version). And to find ways for recognition and treatment of these heterogeneities when combining multiple sources in reasoning.
+
+   Objective 3: Investigating on specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
+
+   Objective 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolving. Especially, we will investigate applications of graph databases in KB evolving.
+
+technical indicator: In this project, we will develop a system for archiving and evolution of large semantic data. The system should fulfill the following indicators:
+
+   1. It can deal with revision of tens of millions of semantic data with lightweight schema in minutes
+   2. It can deal with knowledge heterogeneity when combining multiple sources
+   3. It can reason and query with evolution patterns with millions of semantic data
+
+
+PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
+
+IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
+
+THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
+
+
+CHARACTERISTICS OF THE RESEARCH TEAM IN TERMS OF PROFESSIONAL ORIENTATION OF THE PROPOSED RESEARCH PLAN/OBJECTIVE ON THE SLOVAK SIDE AS WELL AS IN TERMS OF INVOLVEMENT OF PHD STUDENTS AND/OR YOUNG R&D STAFF (UP TO 35 YEARS) IN THE PROJECT (MAX. 6 000 CH.)
+
+SLOVAK TEAM
+
+The team consists of two researchers and one PhD student who are part of the Knowledge Representation research group at the Dept. of Applied Informatics, Fac. of Mathematics, Physics and Informatics, Comenius University in Bratislava (DAI FMFI UK). The team members’ research interests are connected to knowledge representation, including such areas as SW and LOD representation languages, metamodelling, and representing and reasoning with context, which is well aligned with the proposed project. The Slovak side includes 1 young researcher under 35 years (the principal investigator) and also one PhD student.
+
+Martin Homola is an assistant professor at DAI FMFI UK. His research interests include knowledge representation, ontologies, distributed and contextual reasoning.  He was also involved with more applied research involving knowledge architecture for telemedical systems. He earned his PhD from Comenius University in 2010. He worked as a postdoc in FBK, Trento, Italy, under supervision of Luciano Serafini, one of the leading researchers in contextualized knowledge representation. During his stay in Trento he was involved in research on contextualized representation for Semantic Web data. He co-authored 4 journal articles, 3 invited book chapters, and over 30 peer-reviewed papers published on international workshops and conferences. Since 2012 he is a co-chair of the International Workshop on Acquisition, Representation and Reasoning about Context with Logic (ARCOE-Logic) and has served in the PC of conferences and workshops such as SOFSEM, KESW, Znalosti, and WIKT. He served as reviewer for Web Semantics; Knowledge-Based Systems; and Applied Ontology journals. He has been involved in multiple national and bilateral projects. He is also active in pedagogical practice, teaching courses on computational logic, knowledge representation, and web technology. He has supervised more than 10 master students and a number of bachelor students.
+
+Ján Kľuka is an assistant professor at DAI FMFI UK. He earned his PhD in computer science in 2010. He authored or co-authored 10 papers presented at international conferences and workshops. His professional interests include description logics and ontologies, declarative programming, first- and second-order logic and arithmetic, program correctness, descriptive complexity, methods of automated deduction, and web technologies. He co-developed the programming language CL with a semi-automated theorem prover and a web-based interface.
+
+Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.
