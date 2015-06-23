@@ -7,6 +7,28 @@ RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX.
 
 *** State of the art ***
 
+- SW & LD
+- RDF & OWL
+- loads of LD -> big data
+- need for archiving
+
+- state of the ard in LD/BD archiving and evolution
+  - Early semantic data archiving main concern is the different versions of semantic data management, to find differences between different versions of the data
+  - Semantic data archiving Professor Professor Huang Zhisheng Free University of Amsterdam and Frank von Harmelen work as a representative, but their work in theoretical research, there is no practical use of the system
+  - More recently, researchers have begun to focus on the different versions of the semantic data query, but encountered a scalability issue queries, difficult to deal with large-scale semantic data.
+  - Austrian researchers Axel Polleres given preliminary work for efficient query semantics archived data, which is the first concern efficient query semantic data of different versions of the work, but this method is not experimentally test. And the method is based on a simple query language for semantic data does not support the inference.
+
+- Overall, the existing work to support reasoning archive different versions of semantic data is small, expressive query language is weak, the need to propose new element model method.
+- This aspect of the project, Professor Martin Homola foreign applicant has done some preliminary exploration. 
+
+
+- Evolution of semantic data to the University of Karlsruhe in Germany Stojanovic, who work as a representative, they have done a lot of work in terms of ontology evolution, but did not consider the evolution of large-scale semantic data.
+- Antoniou, Professor at the University of Huddersfield in England evolutionary aspects of RDF data did some theoretical work, put forward some evolutionary model, but in terms of system implementation and not involved.
+- Professor Huang Zhisheng and Professor Frank von Harmelen Free University of Amsterdam have also done some work in this area, and to achieve the evolution of a body system, but the system does not consider the inconsistency has been resolved at the time of semantic data update efficient algorithm.
+- Project applicant paint China Guilin professor in the evolution of semantic data has many years of accumulation, AAAI, ISWC and other well-known international conference published a number of relevant papers, and implemented some systems.
+- However, the development of large-scale evolution of the system is also difficult to deal with semantic data, in particular the evolution of millions-level data.
+
+- The main content of cooperation in this project will be a large-scale semantic data archiving and evolution of two aspects, semantic representation and inference research archives related contextual metadata between different versions of the heterogeneity problem of knowledge as well as different versions of semantic data query language and algorithm, inconsistent reasoning efficient algorithm on a large scale evolution of semantic data.
 
 *** Motivation and objectives ***
 
@@ -27,10 +49,15 @@ technical indicator: In this project, we will develop a system for archiving and
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
 
+todo - simplified version from SK-AT with check from Guilin
+
 IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
+
+todo - MH
 
 THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
 
+todo - copy +- from SK-AT
 
 CHARACTERISTICS OF THE RESEARCH TEAM IN TERMS OF PROFESSIONAL ORIENTATION OF THE PROPOSED RESEARCH PLAN/OBJECTIVE ON THE SLOVAK SIDE AS WELL AS IN TERMS OF INVOLVEMENT OF PHD STUDENTS AND/OR YOUNG R&D STAFF (UP TO 35 YEARS) IN THE PROJECT (MAX. 6 000 CH.)
 
@@ -43,3 +70,5 @@ Martin Homola is an assistant professor at DAI FMFI UK. His research interests i
 Ján Kľuka is an assistant professor at DAI FMFI UK. He earned his PhD in computer science in 2010. He authored or co-authored 10 papers presented at international conferences and workshops. His professional interests include description logics and ontologies, declarative programming, first- and second-order logic and arithmetic, program correctness, descriptive complexity, methods of automated deduction, and web technologies. He co-developed the programming language CL with a semi-automated theorem prover and a web-based interface.
 
 Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.
+
+todo - add Chinese team
