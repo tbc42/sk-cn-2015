@@ -13,20 +13,7 @@ Such data sources are built with technologies crafted for the Semantics Web (SW)
 
 Currently the Linked Data cloud already shares a number of characteristics with big data, as the volumes of semantic data being posted are very large, and some of this data is also very dynamic and frequently updated (such as various data fed from weather or traffic information sensors, etc.) Thus, the process of large-scale semantic data archiving, and semantic evolution of data is now a highly relevant research area in knowledge management.
 
-- state of the art in LD/BD archiving and evolution
-  - Early semantic data archiving main concern is the different versions of semantic data management, to find differences between different versions of the data
-  - Semantic data archiving Professor Professor Huang Zhisheng Free University of Amsterdam and Frank von Harmelen work as a representative, but their work in theoretical research, there is no practical use of the system
-  - More recently, researchers have begun to focus on the different versions of the semantic data query, but encountered a scalability issue queries, difficult to deal with large-scale semantic data.
-  - Austrian researchers Axel Polleres given preliminary work for efficient query semantics archived data, which is the first concern efficient query semantic data of different versions of the work, but this method is not experimentally test. And the method is based on a simple query language for semantic data does not support the inference.
-
-- Overall, the existing work to support reasoning archive different versions of semantic data is small, expressive query language is weak, the need to propose new element model method.
-- This aspect of the project, Professor Martin Homola foreign applicant has done some preliminary exploration. 
-
-- Evolution of semantic data to the University of Karlsruhe in Germany Stojanovic, who work as a representative, they have done a lot of work in terms of ontology evolution, but did not consider the evolution of large-scale semantic data.
-- Antoniou, Professor at the University of Huddersfield in England evolutionary aspects of RDF data did some theoretical work, put forward some evolutionary model, but in terms of system implementation and not involved.
-- Professor Huang Zhisheng and Professor Frank von Harmelen Free University of Amsterdam have also done some work in this area, and to achieve the evolution of a body system, but the system does not consider the inconsistency has been resolved at the time of semantic data update efficient algorithm.
-- Project applicant paint China Guilin professor in the evolution of semantic data has many years of accumulation, AAAI, ISWC and other well-known international conference published a number of relevant papers, and implemented some systems.
-- However, the development of large-scale evolution of the system is also difficult to deal with semantic data, in particular the evolution of millions-level data.
+Early approaches to semantic data archiving focus predominantly on the problem of version management and finding differences between different versions of the data. More recent research focuses also on the questions of effective querying and combining of data from different versions. The works in this direction were developed by Axel Polleres, Liliana Stojanovic, Grigoris Anotiou, but also the Chinese partner in this project, Guilin Qi has done substantial contribution in this area. The main limitations of these approaches is either in expressive power of the query language, but also with scalability, in particular to the extent of efficient reasoning support for ontology evolution with millions of RDF triples. [TODO check from Guilin + Add some cites]
 
 However, the evolution of knowledge in Linked Data brings also more complex use cases. Some resources may be combined, merged or remodelled due to enabling their reuse in new applications. The changes between versions should be characterized logically which would enable to pose expressive queries about them.
 
