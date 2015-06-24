@@ -7,12 +7,13 @@ RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX.
 
 *** State of the art ***
 
-- SW & LD
-- RDF & OWL
-- loads of LD -> big data
-- need for archiving
+Under the frame of the Semantic Web and Linked Data initiatives, large volumes of semantic data are now being published on the Web. This includes datasets such as DBPedia (which now contains over 100 million data triples), but also many other data sets, e.g., those published under the open government initiatives by US government or other governments in the EU.
 
-- state of the ard in LD/BD archiving and evolution
+Such data sources are built with technologies crafted for the Semantics Web (SW), they are commonly represented using the Resource Description Framework (RDF) (Beckett, 2004) and it is aligned with semantic vocabularies (ontologies) commonly represented in OWL (W3C, 2012) whose semantic basis is derived from description logics (DL) (Baader et al., 2003).
+
+Currently the Linked Data cloud already shares a number of characteristics with big data, as the volumes of semantic data being posted are very large, and some of this data is also very dynamic and frequently updated (such as various data fed from weather or traffic information sensors, etc.) Thus, the process of large-scale semantic data archiving, and semantic evolution of data is now a highly relevant research area in knowledge management.
+
+- state of the art in LD/BD archiving and evolution
   - Early semantic data archiving main concern is the different versions of semantic data management, to find differences between different versions of the data
   - Semantic data archiving Professor Professor Huang Zhisheng Free University of Amsterdam and Frank von Harmelen work as a representative, but their work in theoretical research, there is no practical use of the system
   - More recently, researchers have begun to focus on the different versions of the semantic data query, but encountered a scalability issue queries, difficult to deal with large-scale semantic data.
@@ -21,14 +22,19 @@ RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX.
 - Overall, the existing work to support reasoning archive different versions of semantic data is small, expressive query language is weak, the need to propose new element model method.
 - This aspect of the project, Professor Martin Homola foreign applicant has done some preliminary exploration. 
 
-
 - Evolution of semantic data to the University of Karlsruhe in Germany Stojanovic, who work as a representative, they have done a lot of work in terms of ontology evolution, but did not consider the evolution of large-scale semantic data.
 - Antoniou, Professor at the University of Huddersfield in England evolutionary aspects of RDF data did some theoretical work, put forward some evolutionary model, but in terms of system implementation and not involved.
 - Professor Huang Zhisheng and Professor Frank von Harmelen Free University of Amsterdam have also done some work in this area, and to achieve the evolution of a body system, but the system does not consider the inconsistency has been resolved at the time of semantic data update efficient algorithm.
 - Project applicant paint China Guilin professor in the evolution of semantic data has many years of accumulation, AAAI, ISWC and other well-known international conference published a number of relevant papers, and implemented some systems.
 - However, the development of large-scale evolution of the system is also difficult to deal with semantic data, in particular the evolution of millions-level data.
 
-- The main content of cooperation in this project will be a large-scale semantic data archiving and evolution of two aspects, semantic representation and inference research archives related contextual metadata between different versions of the heterogeneity problem of knowledge as well as different versions of semantic data query language and algorithm, inconsistent reasoning efficient algorithm on a large scale evolution of semantic data.
+However, the evolution of knowledge in Linked Data brings also more complex use cases. Some resources may be combined, merged or remodelled due to enabling their reuse in new applications. The changes between versions should be characterized logically which would enable to pose expressive queries about them.
+
+Different knowledge resources are often modelled with different assumed context. Older proposals to handle the context on the Semantic Web include Named Graphs (Carroll et al. 2005); more research was developed in this direction and also the Slovak partner has collaborated on this topic (Homola et al. 2010, Serafini & Homola 2012). It is well known that a characterization of the change in the context between two knowledge resources may have an important influence of how the knowledge from one resource may be combined with another (Benerecetti et al. 2000). To our best knowledge, this problem was not yet applied in the area of evolution of Semantic Web or Linked Data knowledge resources. 
+
+Another approach that may be useful to reason about archived versions of linked data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Researchers of the Slovak partners have also done some work in this area (Svátek et al. 2013, Homola et al. 2014, Kubincová et al. 2015).
+
+The main focus of cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the effectivity of querying and reasoning algorithms for large scale evolution of semantic data.
 
 *** Motivation and objectives ***
 
@@ -40,7 +46,7 @@ RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX.
 
    Objective 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolving. Especially, we will investigate applications of graph databases in KB evolving.
 
-technical indicator: In this project, we will develop a system for archiving and evolution of large semantic data. The system should fulfill the following indicators:
+TODO?? technical indicator: In this project, we will develop a system for archiving and evolution of large semantic data. The system should fulfill the following indicators:
 
    1. It can deal with revision of tens of millions of semantic data with lightweight schema in minutes
    2. It can deal with knowledge heterogeneity when combining multiple sources
