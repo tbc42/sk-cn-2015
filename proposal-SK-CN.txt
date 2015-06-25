@@ -64,11 +64,27 @@ The team is composed of three researchers on each side. We estimate that this wi
 
 IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
 
-todo - MH
+*** Benefits of the Collaboration ***
+
+The collaboration may generate added value on the Slovak side in terms of new joint research results and publications, experience and know how transfer in a highly relevant research area (see below). The joint project is justified by the fact that the expertise of both teams is complementary. The Chinese side brings expertise from the area of ontology evolution, and in addition a more practical research experience with a number of systems implemented and evaluated in the past, while the Slovak side brings the expertise more on the theoretical and foundational side in the respective areas of contextual knowledge representation, metamodelling and dealing with knowledge heterogeneity. The combined effort will bring different points of view, and may result in novel solutions and contribution w.r.t. the objectives of the project which would otherwise not be achieved.
+
+*** Complementary Expertise and Split of Responsibilities ***
+
+TODO when we have bio information from Guilin
+
 
 THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
 
-todo - copy +- from SK-AT
+The project pursues relevant research objectives in the area of knowledge representation and particularly LOD. Extending the capabilities of World Wide Web as we know it today, and fostering effective data reuse in end-user but as well B2B applications the socio-economic contribution of LOD is already extensive. We expect particular innovations in archiving, management and reuse of large linked data sources as the outcome of this project which will further increase its socio-economic impacts on the society. Particularly, we expect to contribute to the technology that makes it possible to
+
+● use existing vast linked data resources more efficiently in terms smaller storage and computational costs
+● combine and explore various versions of linked data resources to higher degree in terms of the ability to find relevant data and to understand better the changes on it over time and that are result of evolution
+● in the future, to manage larger linked data resources than it is currently possible
+
+In addition, the initiation of collaboration with the group of Guilin Qi at Southeast University, who is among the leading researchers in the area of ontology evolution in Asia is of a great value to our research group and to our university. He has published a number of publications connected to the topic of ontology evolution, and he has lead and collaborated in a number of high-profile research projects, national and international. Our collaboration with his group will result in valuable exchange of experience, and transfer of know how. As part of the project we plan to host seminars that will be open also to the students and scientific public which will further extend the outreach of this collaboration. We believe that we will be able to transfer the gained experience also to the students of our faculty (especially those specializing in sacrificial intelligence).
+
+This collaboration may improve our ties with the international research community and may result in additional added value in form of future international joint research proposals.
+
 
 CHARACTERISTICS OF THE RESEARCH TEAM IN TERMS OF PROFESSIONAL ORIENTATION OF THE PROPOSED RESEARCH PLAN/OBJECTIVE ON THE SLOVAK SIDE AS WELL AS IN TERMS OF INVOLVEMENT OF PHD STUDENTS AND/OR YOUNG R&D STAFF (UP TO 35 YEARS) IN THE PROJECT (MAX. 6 000 CH.)
 
