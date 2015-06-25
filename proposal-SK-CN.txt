@@ -42,7 +42,25 @@ TODO?? technical indicator: In this project, we will develop a system for archiv
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
 
-todo - simplified version from SK-AT with check from Guilin
+The project activities will be split into two work packages:
+
+* WP1 (approx. Jan 2016-Mar 2017): Foundations of reasoning and querying of evolving data. In this work package we will focus on the theoretical foundations of ontology evolution and reasoning with/querying over evolving data and we will study (a) the contextual aspects of evolving Linked Data sources, (b) we will focus on metamodelling and how some aspects of evolving data may be captured by it, and (c) we will study the algorithmic side of reasoning and querying over evolving data from the theoretical point of view (complexity, effectiveness, optimization). We expect to propose improvements on the theoretical level and we expect that the first results will be published by the end of 2016 or early 2017.
+
+* WP2 (approx. Nov 2016-Dec 2017): Implementation and evaluation. In this work package we expect to build on the results from WP1 and work towards practical implementation of the most viable results. Towards this end we will rely on the existing ontology evolution infrastructure that is currently developed by the Chinese partner, which we will use as a base. However, we expect that results from WP1 will initiate substantial improvements in the implementation that will lead to improved reasoning capabilities and query expressivity, together with some optimization and overall boost in effectiveness. In the second half of WP2 we will also conduct empirical evaluation on suitable evolving datasets (e.g., obtained from the consecutive snapshots of DBPedia that are freely available). We expect first results to be published in the second half of 2017.
+
+The half-a-year overlap between WP1 and WP2 will enable to start the work on the implementation as soon as first relevant theoretical results are achieved. 
+
+In the second part of 2017 we also plan to work on a major summary publication communicating the overall results of the project.
+
+*** Visits Plan ***
+
+The team is composed of three researchers on each side. We estimate that this will allow us to execute one visit per year on each side where the whole team from the other side will be part of the visit. The preliminary plan of visits:
+
+* First half of 2016: the Chinese team will visit the Slovak partner in Bratislava (approx. 5-7 days) - opening workshop, working meetings
+* Second half of 2016: the Slovak team will visit the Chinese partner in Nanjing (approx. 5-7 days) - working meetings
+* First half of 2016: the Chinese team will visit the Slovak partner in Bratislava (approx. 5-7 days) - working meetings
+* Second half of 2016: the Slovak team will visit the Chinese partner in Nanjing (approx. 5-7 days) - closing workshop, publication activity
+
 
 IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
 
