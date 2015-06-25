@@ -88,7 +88,7 @@ This collaboration may improve our ties with the international research communit
 
 CHARACTERISTICS OF THE RESEARCH TEAM IN TERMS OF PROFESSIONAL ORIENTATION OF THE PROPOSED RESEARCH PLAN/OBJECTIVE ON THE SLOVAK SIDE AS WELL AS IN TERMS OF INVOLVEMENT OF PHD STUDENTS AND/OR YOUNG R&D STAFF (UP TO 35 YEARS) IN THE PROJECT (MAX. 6 000 CH.)
 
-SLOVAK TEAM
+***Slovak team***
 
 The team consists of two researchers and one PhD student who are part of the Knowledge Representation research group at the Dept. of Applied Informatics, Fac. of Mathematics, Physics and Informatics, Comenius University in Bratislava (DAI FMFI UK). The team members’ research interests are connected to knowledge representation, including such areas as SW and LOD representation languages, metamodelling, and representing and reasoning with context, which is well aligned with the proposed project. The Slovak side includes 1 young researcher under 35 years (the principal investigator) and also one PhD student.
 
@@ -98,4 +98,10 @@ Ján Kľuka is an assistant professor at DAI FMFI UK. He earned his PhD in compu
 
 Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.
 
-todo - add Chinese team
+***Chinese team***
+
+Dr. Guilin Qi is a professor working at Southeast University (SEU) in China.  He is the leader of the Knowledge Science and Engineering group at SEU and is the deputy director of the Web Science Institute at SEU. He is a professional member of ACM and a member of China Computer Federation. He received his PhD in Computer Science from Queen's University of Belfast in 2006. Before he moved back to China in 2009, he has worked in Institute AIFB at University of Karlsruhe for three years. His research interests include artificial intelligence, knowledge representation and reasoning, and semantic web. He has published over 100 papers in these areas, many of which published in proceedings of major conferences or journals. He is in the editorial board of the Journal of Web Semantic. He is an associate editor of the Journal of Advances in Artificial Intelligence and has co-edited a special issue of Annals of Mathematics and Artificial Intelligence. He is a co-Chair of the Poster and Demo track of ISWC’2011 and JIST’2013, and he is a co-Chair of the Poster and Demo track of EKAW’14. He is a PC co-Chair of Chinese Semantic Web Symposium (CSWS) in 2009 and 2012, and is a Co-Chair of CSWS2013 . He has organized a couple of international workshops, including C&O'08, ARCOE 09-10, WoDOOM2012-2014, WL4AI2015. He has served as PC members of several international conferences and workshops, such as KR'12, ECAI'12-14, IJCAI'11-15, AAAI11-15, ESWC11-15, ISWC09-15.
+
+Zhizheng Zhang is an Associate Professor in the School of Computer Science & Engineering at Southeast University where he has been a faculty member since 2003. He was visiting scholar at the knowledge representation lab at Texas Tech University from 2010 to 2011, and research fellow at the intelligent system lab at Western Sydney University from 2012 to 2013. His research interests lie in the area of declarative programming languages, answer set programming, preference handling, reasoning about action, contextual reasoning. He has published about 20 papers in international journals or conferences, some of them are published in top conferences like AAAI and KR.
+
+Zhangquan Zhou is a PhD student in the School of Computer Science & Engineering at Southeast University. His research interests include knowledge representation and reasoning, and semantic Web. He is mainly working on parallel reasoning in Semantic Web now. He has published four papers in international conferences and workshops.
