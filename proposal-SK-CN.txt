@@ -61,7 +61,10 @@ Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4)
 Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
 
 Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
+
 Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
+
+W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
 
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
