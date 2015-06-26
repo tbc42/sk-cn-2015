@@ -24,9 +24,9 @@ is the problem of semantic heterogenity. For example, it sometimes happens that 
 
 Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Researchers of the Slovak partners have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recently studies exploitating of metamodelling in expressive querying occured (De Giacomo et al. 2011, Bischof et al. 2015) and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving linked data resources.
 
-The main focus of cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the effectivity of querying and reasoning algorithms for large scale evolution of semantic data.
+*** Project Objectives ***
 
-*** Motivation and objectives ***
+The main focus of cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the effectivity of querying and reasoning algorithms for large scale evolution of semantic data.
 
    Objective 1: To investigate the types of contextual meta information (including time, but also other contextual dimensions) that is relevant to the problem of combining and reasoning with different versions of LOD sources, together with suitable representational languages and reasoning algorithms.
 
