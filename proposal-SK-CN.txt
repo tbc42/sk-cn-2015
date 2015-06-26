@@ -66,8 +66,9 @@ The collaboration may generate added value on the Slovak side in terms of new jo
 
 *** Complementary Expertise and Split of Responsibilities ***
 
-TODO when we have bio information from Guilin
+Work package WP1 will be coordinated by Martin Homola for the Slovak side and Zhizheng Zhang for the Chinese side. Both of them have substntial experince with foundationtial research. Martin Homola is an expert on contextual knowledge representation and we will build upon his unique expertise. For the first 9 months of the activity also Gulin Qi will be instrumentl in this activity to contribute with his unique experince with Ontology evolution, and Ján Kľuka will contribute with his expertise in knowledge heterogeneity and metamodelling. Júlia Pukancová, a PhD student on the Slovak side, will also be involved with this work package.
 
+Work package WP2 will be coordinated by Ján Kľuka for the Slovak side and by Guilin Qi for the Chinese side. Guilin Qi has vast experience with system implenetation in the area of otnology evolution which is a unique asset on the Chinese side. Ján Kľuka is also a skilled software developer. We expect strong contribution also from Zhangquan Zhou, the PhD student on the Chinese side who also has considerable experience with implenetations. The remaning members of the project will oversee the application of theoretical results achieved in WP1 and their correct implenetation in WP2. After WP1 is finalized these project members will fully join WP2 and coordinate the empirical evaluation of the implemented system.
 
 THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
 
@@ -92,7 +93,7 @@ Martin Homola is an assistant professor at DAI FMFI UK. His research interests i
 
 Ján Kľuka is an assistant professor at DAI FMFI UK. He earned his PhD in computer science in 2010. He authored or co-authored 10 papers presented at international conferences and workshops. His professional interests include description logics and ontologies, declarative programming, first- and second-order logic and arithmetic, program correctness, descriptive complexity, methods of automated deduction, and web technologies. He co-developed the programming language CL with a semi-automated theorem prover and a web-based interface.
 
-Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.
+Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.  
 
 ***Chinese team***
 
