@@ -22,7 +22,7 @@ Different knowledge resources are often modelled with different assumed context.
 Another relevant problem in this respect, which is frequent between linked data reousces due to expressive limitations of the semantic languages used in linked data, such as RDF and OWL
 is the problem of semantic heterogenity. For example, it sometimes happens that clases or property relations may be represented as objects in some particular resources. Since the reasons for this practice  is justified, such chnagnes (which are very hard to align in reasoning) may be introduced also between two versions of one evolving resource. The Slovak partner has participated in prelimiary explorations of this topic (e.g. Svátek et al. 2013), however, further research applied in the area of linked data evolution and archiving is not known to us.
 
-Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Researchers of the Slovak partners have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recenly studies exploitating of metamodelling in expressive querying occured (De Giacomo et al. 2011, Bischof et al. 2015) and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving linked data resources.
+Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Researchers of the Slovak partners have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recently studies exploitating of metamodelling in expressive querying occured (De Giacomo et al. 2011, Bischof et al. 2015) and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving linked data resources.
 
 The main focus of cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the effectivity of querying and reasoning algorithms for large scale evolution of semantic data.
 
@@ -35,6 +35,34 @@ The main focus of cooperation in this project will be on evolution of large-scal
    Objective 3: Investigating on specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
 
    Objective 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolving. Especially, we will investigate applications of graph databases in KB evolving.
+
+*** References ***
+
+Benerecetti, M., Bouquet, P., & Ghidini, C. (2000). Contextual reasoning distilled. Journal of Experimental & Theoretical Artificial Intelligence, 12(3), 279-305.
+
+Bischof, S., Krötzsch, M., Polleres, A., & Rudolph, S. (2015). Schema-Agnostic Query Rewriting for OWL QL. In: DL
+
+De Giacomo, G., Lenzerini, M., & Rosati, R. (2011). Higher-Order Description Logics for Domain Metamodeling. In AAAI.
+
+Baader, F. et al. 2003. The Description Logic Handbook. Cambridge University Press.
+
+Beckett, D. (2004). RDF/XML Syntax Specification (Revised). W3C Recommendation.
+
+Carroll, J. J., Bizer, C., Hayes, P., & Stickler, P. (2005). Named graphs. J Web Sem 3(4):247-267
+
+Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
+
+Svátek, V., Homola, M., Kľuka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In OWLED.
+
+Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
+
+Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
+
+Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
+
+Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
+Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
+
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
 
