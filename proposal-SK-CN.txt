@@ -24,7 +24,6 @@ Another relevant problem in this respect, which is frequent among Linked Data re
  
 Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on description logics (Motik 2007) and OWL (Glimm et al. 2010). Researchers on the Slovak side have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recently, studies exploiting metamodelling in expressive querying have appeared (De Giacomo et al. 2011, Bischof et al. 2015), and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving Linked Data resources.
  
- 
 PROJECT OBJECTIVES
  
 The main focus of the cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the efficiency of querying and reasoning algorithms for large scale evolution of semantic data.
@@ -36,7 +35,6 @@ OBJECTIVE 2: To investigate knowledge heterogeneity that may be introduced betwe
 OBJECTIVE 3: To investigate specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
  
 OBJECTIVE 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolution. Especially, we will investigate applications of graph databases in KB evolution.
- 
  
 REFERENCES
  
@@ -99,14 +97,11 @@ In the second half of WP2 we will also conduct empirical evaluation on suitable 
 We expect first results to be published in the second half of 2017.
  
 The half-a-year overlap between WP1 and WP2 will enable to start the work on the implementation as soon as first relevant theoretical results are achieved. 
- 
 In the second part of 2017 we also plan to work on a major summary publication communicating the overall results of the project.
- 
  
 VISITS PLAN
  
 The team is composed of three researchers on each side. We estimate that this will allow us to execute one visit per year on each side where the whole team from the other side will be part of the visit. The preliminary plan of visits:
- 
 ● First half of 2016: the Chinese team will visit the Slovak partner in Bratislava (approx. 5–7 days) – opening workshop, working meetings;
 ● Second half of 2016: the Slovak team will visit the Chinese partner in Nanjing (approx. 5–7 days) – working meetings;
 ● First half of 2017: the Chinese team will visit the Slovak partner in Bratislava (approx. 5–7 days) – working meetings;
@@ -115,17 +110,15 @@ The team is composed of three researchers on each side. We estimate that this wi
 
 IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
 
- 
 BENEFITS OF THE COLLABORATION
  
 The collaboration may generate added value on the Slovak side in terms of new joint research results and publications, experience and know how transfer in a highly relevant research area (see below). The joint project is justified by the fact that the expertise of both teams is complementary. The Chinese side brings expertise from the area of ontology evolution, and in addition a more practical research experience with a number of systems implemented and evaluated in the past, while the Slovak side brings the expertise more on the theoretical and foundational side in the respective areas of contextual knowledge representation, metamodelling, and dealing with knowledge heterogeneity. The combined effort will bring together different points of view, and may result in novel solutions and contributions towards the objectives of the project which would otherwise not be achieved.
  
- 
 COMPLEMENTARY EXPERTISE AND SPLIT OF RESPONSIBILITIES
  
 Work package WP1 will be coordinated by Martin Homola for the Slovak side and Zhizheng Zhang for the Chinese side. Both of them have substantial experience with foundational research. Martin Homola is an expert on contextual knowledge representation and we will build upon his unique expertise. For the first 9 months of the activity also Gulin Qi will be instrumental in this activity to contribute with his unique experience with ontology evolution, and Ján Kľuka will contribute his expertise in knowledge heterogeneity and metamodelling. Júlia Pukancová, a PhD student on the Slovak side, will also be involved in this work package.
-
-    Work package WP2 will be coordinated by Ján Kľuka for the Slovak side and by Guilin Qi for the Chinese side. Guilin Qi has vast experience with system implementation in the area of ontology evolution which is a unique asset on the Chinese side. Ján Kľuka is also a skilled software developer. We expect strong contribution also from Zhangquan Zhou, the PhD student on the Chinese side, who also has considerable experience with implementation. The remaining members of the project team will oversee the application of theoretical results achieved in WP1 and their correct implementation in WP2. After WP1 is finalized these project members will fully join WP2 and coordinate the empirical evaluation of the implemented system.
+ 
+Work package WP2 will be coordinated by Ján Kľuka for the Slovak side and by Guilin Qi for the Chinese side. Guilin Qi has vast experience with system implementation in the area of ontology evolution which is a unique asset on the Chinese side. Ján Kľuka is also a skilled software developer. We expect strong contribution also from Zhangquan Zhou, the PhD student on the Chinese side, who also has considerable experience with implementation. The remaining members of the project team will oversee the application of theoretical results achieved in WP1 and their correct implementation in WP2. After WP1 is finalized these project members will fully join WP2 and coordinate the empirical evaluation of the implemented system.
 
 THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
 
@@ -135,7 +128,6 @@ The project pursues relevant research objectives in the area of knowledge repres
 ● in the future, to manage larger Linked Data resources than is currently possible.
  
 Additionally, the initiation of collaboration with the group of Guilin Qi at Southeast University, who is among the leading researchers in the area of ontology evolution in Asia, is of a great value to our research group and to our university. He has published a number of publications connected to the topic of ontology evolution, and he has lead and collaborated in a number of high-profile research projects, national and international. Our collaboration with his group will result in valuable exchange of experience, and transfer of know how. As part of the project we plan to host seminars that will be open also to the students and scientific public, which will further extend the outreach of this collaboration. We believe that we will be able to pass the experience gained also to the students of our faculty (especially those specializing in artificial intelligence).
- 
 This collaboration may improve our ties with the international research community and may result in additional added value in form of future international joint research proposals.
 
 
@@ -152,11 +144,11 @@ JÁN KĽUKA is an assistant professor at DAI FMFI UK. He earned his PhD in compu
  
 JÚLIA PUKANCOVÁ is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies. She has already co-authored one workshop paper.
  
- 
 CHINESE TEAM
  
-DR. GUILIN QI is a professor working at Southeast University (SEU) in China.  He is the leader of the Knowledge Science and Engineering group at SEU and is the deputy director of the Web Science Institute at SEU. He is a professional member of ACM and a member of China Computer Federation. He received his PhD in Computer Science from Queen's University of Belfast in 2006. Before he moved back to China in 2009, he has worked in Institute AIFB at University of Karlsruhe for three years. His research interests include artificial intelligence, knowledge representation and reasoning, and semantic web. He has published over 100 papers in these areas, many of which published in proceedings of major conferences or journals. He is in the editorial board of the Journal of Web Semantic. He is an associate editor of the Journal of Advances in Artificial Intelligence and has co-edited a special issue of Annals of Mathematics and Artificial Intelligence. He is a co-Chair of the Poster and Demo track of ISWC’2011 and JIST’2013, and he is a co-Chair of the Poster and Demo track of EKAW’14. He is a PC co-Chair of Chinese Semantic Web Symposium (CSWS) in 2009 and 2012, and is a Co-Chair of CSWS2013. He has organized a couple of international workshops, including C&O'08, ARCOE 09-10, WoDOOM2012-2014, WL4AI2015. He has served as PC members of several international conferences and workshops, such as KR'12, ECAI'12-14, IJCAI'11-15, AAAI11-15, ESWC11-15, ISWC09-15.
+DR. GUILIN QI is a professor working at Southeast University (SEU) in China.  He is the leader of the Knowledge Science and Engineering group at SEU and is the deputy director of the Web Science Institute at SEU. He is a professional member of ACM and a member of China Computer Federation. He received his PhD in Computer Science from Queen's University of Belfast in 2006. Before he moved back to China in 2009, he has worked in Institute AIFB at University of Karlsruhe for three years. His research interests include artificial intelligence, knowledge representation and reasoning, and semantic web. He has published over 100 papers in these areas, many of which published in proceedings of major conferences or journals. He is in the editorial board of the Journal of Web Semantic. He is an associate editor of the Journal of Advances in Artificial Intelligence and has co-edited a special issue of Annals of Mathematics and Artificial Intelligence. He is a co-Chair of the Poster and Demo track of ISWC 2011 and JIST 2013, and he is a co-Chair of the Poster and Demo track of EKAW 2014. He is a PC Co-Chair of Chinese Semantic Web Symposium (CSWS) in 2009 and 2012, and is a Co-Chair of CSWS 2013. He has organized a couple of international workshops, including C&O 2008, ARCOE 2009–10, WoDOOM 2012-14, WL4AI 2015. He has served as PC members of several international conferences and workshops, such as KR 2012, ECAI 2012–14, IJCAI 2011–15, AAAI 2011–15, ESWC 2011–15, ISWC 2009–15.
  
-ZHIZHENG ZHANG is an Associate Professor in the School of Computer Science & Engineering at Southeast University where he has been a faculty member since 2003. He was a visiting scholar at the knowledge representation lab at Texas Tech University from 2010 to 2011, and research fellow at the intelligent system lab at Western Sydney University from 2012 to 2013. His research interests lie in the area of declarative programming languages, answer set programming, preference handling, reasoning about action, contextual reasoning. He has published about 20 papers in international journals or conferences, some of them are published in top conferences like AAAI and KR.
+ZHIZHENG ZHANG is an Associate Professor in the School of Computer Science & Engineering at SEU where he has been a faculty member since 2003. He was a visiting scholar at the knowledge representation lab at Texas Tech University from 2010 to 2011, and research fellow at the intelligent system lab at Western Sydney University from 2012 to 2013. His research interests lie in the area of declarative programming languages, answer set programming, preference handling, reasoning about action, contextual reasoning. He has published about 20 papers in international journals or conferences, some of them are published in top conferences like AAAI and KR.
  
-ZHANGQUAN ZHOU is a PhD student in the School of Computer Science & Engineering at Southeast University. His research interests include knowledge representation and reasoning, and Semantic Web. He is mainly working on parallel reasoning in Semantic Web now. He has published 4 papers in international conferences and workshops.
+ZHANGQUAN ZHOU is a PhD student in the School of Computer Science & Engineering at SEU. His research interests include knowledge representation and reasoning, and Semantic Web. He is mainly working on parallel reasoning in Semantic Web now. He has published 4 papers in international conferences and workshops.
+
