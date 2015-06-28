@@ -13,7 +13,7 @@ Such data sources are built with technologies crafted for the Semantics Web (SW)
 
 Currently the Linked Data cloud already shares a number of characteristics with big data, as the volumes of semantic data being posted are very large, and some of this data is also very dynamic and frequently updated (such as various data fed from weather or traffic information sensors, etc.) Thus, the process of large-scale semantic data archiving, and semantic evolution of data is now a highly relevant research area in knowledge management.
 
-Early approaches to semantic data archiving focus predominantly on the problem of version management and finding differences between different versions of the data. More recent research focuses also on the questions of effective querying and combining of data from different versions. The works in this direction were developed by Axel Polleres, Liliana Stojanovic, Grigoris Anotiou, but also the Chinese partner in this project, Guilin Qi has done substantial contribution in this area. The main limitations of these approaches is either in expressive power of the query language, but also with scalability, in particular to the extent of efficient reasoning support for ontology evolution with millions of RDF triples. [TODO check from Guilin + Add some cites]
+Much work has been done on semantic data archiving and evolution. Early works on semantic data archiving and evolution focus predominantly on the problem of version management (Huang and Stuckenschmidt 2005) and finding differences between different versions of the data (Noy and Musen 2002). Stojanovic in [Stojanovic 2004] gives a process of knowledge evolution, which consists of six steps, such as change discovery, change representation, etc. Noy et al. give a new framework for ontology evolution in collaborative environments in (Noy et al. 2006). Afterwards, most the works on semantic data evolution focus on dealing with logical inconsistencies when new data are added (see (Qi et al. 2015) for example). More recent research focuses also on the questions of effective querying and combining of data from different versions (Fernández et al. 2015). The main limitations of these approaches is either in expressive power of the query language, but also with scalability, in particular to the extent of efficient reasoning support for ontology evolution with millions of RDF triples.
 
 However, the evolution of knowledge in Linked Data brings also more complex use cases. Some resources may be combined, merged or remodelled due to enabling their reuse in new applications. The changes between versions should be characterized logically which would enable to pose expressive queries about them.
 
@@ -65,6 +65,19 @@ Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodellin
 Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
 
 W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
+
+Fernández, J.D., Polleres, A., Umbrich, J. (2015) Towards Efficient Archiving of Dynamic Linked Open Data. In Proc. of DIACRON@ESWC, pp. 34-49.
+
+Huang, Z., Stuckenschmidt, H. (2005). Reasoning with Multi-version Ontologies: A Temporal Logic Approach. In Proc. of ISWC, pp. 398-412.
+
+Noy, N.F., Musen, M.A. (2002). PROMPTDIFF: A fixed-point algorithm for comparing ontology versions. In Proc. of AAAI-02, pp. 744-750.
+
+Noy, N.F., Chugh, A., Liu, W., Musen, M.A. (2006) A Framework for Ontology Evolution in Collaborative Environments. In Proc. of ISWC, pp. 544-558.
+
+Qi, G., Wang, Z., Wang, K., Fu, X., Zhuang, Z. (2015). Approximating Model-Based ABox Revision in DL-Lite: Theory and Practice. In Proc. of AAAI, pp. 254-260.
+
+Stojanovic L. (2004). Methods and Tools for Ontology Evolution. PhD thesis, University of Karlsruhe (TH), Germany.
+
 
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
