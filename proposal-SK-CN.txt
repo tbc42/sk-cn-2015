@@ -40,45 +40,45 @@ OBJECTIVE 4: To develop efficient algorithms by balancing syntactic and semantic
  
 REFERENCES
  
-Benerecetti, M., Bouquet, P., & Ghidini, C. (2000). Contextual reasoning distilled. Journal of Experimental & Theoretical Artificial Intelligence, 12(3), 279-305.
-
-Bischof, S., Krötzsch, M., Polleres, A., & Rudolph, S. (2015). Schema-Agnostic Query Rewriting for OWL QL. In: DL
-
-De Giacomo, G., Lenzerini, M., & Rosati, R. (2011). Higher-Order Description Logics for Domain Metamodeling. In AAAI.
-
 Baader, F. et al. 2003. The Description Logic Handbook. Cambridge University Press.
 
 Beckett, D. (2004). RDF/XML Syntax Specification (Revised). W3C Recommendation.
 
+Benerecetti, M., Bouquet, P., & Ghidini, C. (2000). Contextual reasoning distilled. Journal of Experimental & Theoretical Artificial Intelligence, 12(3), 279-305.
+
+Bischof, S., Krötzsch, M., Polleres, A., & Rudolph, S. (2015). Schema-Agnostic Query Rewriting for OWL QL. In: DL
+
 Carroll, J. J., Bizer, C., Hayes, P., & Stickler, P. (2005). Named graphs. J Web Sem 3(4):247-267
 
-Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
-
-Svátek, V., Homola, M., Kľuka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In OWLED.
-
-Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
-
-Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
-
-Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
-
-Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
-
-Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
-
-W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
+De Giacomo, G., Lenzerini, M., & Rosati, R. (2011). Higher-Order Description Logics for Domain Metamodeling. In AAAI.
 
 Fernández, J.D., Polleres, A., Umbrich, J. (2015) Towards Efficient Archiving of Dynamic Linked Open Data. In Proc. of DIACRON@ESWC, pp. 34-49.
 
+Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
+
+Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
+
+Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
+
+Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
+
 Huang, Z., Stuckenschmidt, H. (2005). Reasoning with Multi-version Ontologies: A Temporal Logic Approach. In Proc. of ISWC, pp. 398-412.
 
-Noy, N.F., Musen, M.A. (2002). PROMPTDIFF: A fixed-point algorithm for comparing ontology versions. In Proc. of AAAI-02, pp. 744-750.
+Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
+
+Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
 
 Noy, N.F., Chugh, A., Liu, W., Musen, M.A. (2006) A Framework for Ontology Evolution in Collaborative Environments. In Proc. of ISWC, pp. 544-558.
+
+Noy, N.F., Musen, M.A. (2002). PROMPTDIFF: A fixed-point algorithm for comparing ontology versions. In Proc. of AAAI-02, pp. 744-750.
 
 Qi, G., Wang, Z., Wang, K., Fu, X., Zhuang, Z. (2015). Approximating Model-Based ABox Revision in DL-Lite: Theory and Practice. In Proc. of AAAI, pp. 254-260.
 
 Stojanovic L. (2004). Methods and Tools for Ontology Evolution. PhD thesis, University of Karlsruhe (TH), Germany.
+
+Svátek, V., Homola, M., Kľuka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In OWLED.
+
+W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
 
 
 
