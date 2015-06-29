@@ -2,6 +2,8 @@ PROJECT TITLE:
 
 SHORT PROJECT DESCRIPTION (ANNOTATION):
 
+The Semantic Web and Linked Data initiatives resulted into ever larger semantic data
+repositories being published on the Web. Many of these resources are live, they are growing, and are frequently updated. Versioning and reasoning/querying about their evolution becomes a highly relevant problem, that we focus on in this project. The novel contribution will be based on combination of the expertise of the Chinese partner who is already involved in ontology and linked data and evolution, and of the Slovak partner who has experience with context, metamodelling, and heterogeneity of knowledge which are highly relevant for the problem of semantic data evolution. We expect particular scientific contribution in this area, particularly in reasoning and querying about change in evolving semantic data repositories. We also expect that the connection in frame of the project will be beneficial for our organizations also in the long term in the form of continual collaboration and future exchanges.
 
 RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX. 15 000 CHARACTERS):
 
