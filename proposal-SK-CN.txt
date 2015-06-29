@@ -5,131 +5,150 @@ SHORT PROJECT DESCRIPTION (ANNOTATION):
 
 RESEARCH AIM TARGETS, ORIGINALITY AND TOPICALITY OF THE RESEARCH OBJECTIVE (MAX. 15 000 CHARACTERS):
 
-*** State of the art ***
-
+ 
+STATE OF THE ART
+ 
 Under the frame of the Semantic Web and Linked Data initiatives, large volumes of semantic data are now being published on the Web. This includes datasets such as DBPedia (which now contains over 100 million data triples), but also many other data sets, e.g., those published under the open government initiatives by US government or other governments in the EU.
+ 
+Such data sources are built with technologies crafted for the Semantics Web (SW), they are commonly represented using the Resource Description Framework (RDF) (Beckett, 2004), and they are aligned with semantic vocabularies (ontologies) commonly represented in OWL (W3C, 2012) whose semantic basis is derived from description logics (Baader et al., 2003).
+ 
+Currently the Linked Data cloud already shares a number of characteristics with big data, as the volumes of semantic data being posted are very large, and some of this data is also very dynamic and frequently updated (such as various data fed from weather or traffic information sensors, etc.). Thus, the process of large-scale semantic data archiving and semantic evolution of data is now a highly relevant research area in knowledge management.
+ 
+Much work has been done on semantic data archiving and evolution. Early works on semantic data archiving and evolution focus predominantly on the problem of version management (Huang and Stuckenschmidt 2005) and finding differences between different versions of the data (Noy and Musen 2002). Stojanovic (2004) gives a process of knowledge evolution, which consists of six steps, such as change discovery, change representation, etc. Noy et al. (2006) give a new framework for ontology evolution in collaborative environments. Afterwards, most the works on semantic data evolution focus on dealing with logical inconsistencies when new data are added (see Qi et al. 2015 for example). More recent research focuses also on the questions of efficient querying and combining of data from different versions (Fernández et al. 2015). The main limitations of these approaches is either in the expressive power of the query language, but also in scalability, in particular to the extent of efficient reasoning support for ontology evolution with millions of RDF triples.
+ 
+However, the evolution of knowledge in Linked Data brings also more complex use cases. Some resources may be combined, merged, or remodelled due to enabling their reuse in new applications. The changes among versions should be characterized logically which would enable to pose expressive queries about them.
+ 
+Different knowledge resources are often modelled with different assumed contexts. Older proposals to handle the context on the Semantic Web include Named Graphs (Carroll et al. 2005); more research was developed in this direction and also the Slovak partner has collaborated on this topic (Homola et al. 2010, Serafini & Homola 2012). It is well known that a characterization of the change in the context between two knowledge resources may have an important influence of how the knowledge from one resource may be combined with another (Benerecetti et al. 2000). To our best knowledge, this problem was not yet applied in the area of evolution of Semantic Web or Linked Data knowledge resources where the characterization of the shift in context between two versions of the resource may be also very relevant.
+ 
+Another relevant problem in this respect, which is frequent among Linked Data resources, is the problem of semantic heterogeneity. It arises due to expressive limitations of the semantic languages used in Linked Data, such as RDF and OWL. For example, it sometimes happens that classes or property relations may be represented as objects in some particular resources. Since the reasons for this practice is justified, such changes (which are very hard to align in reasoning) may be introduced also between two versions of one evolving resource. The Slovak partner has participated in preliminary explorations of this topic (e.g., Svátek et al. 2013), however, further research applied in the area of linked data evolution and archiving is not known to us.
+ 
+Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on description logics (Motik 2007) and OWL (Glimm et al. 2010). Researchers on the Slovak side have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recently, studies exploiting metamodelling in expressive querying have appeared (De Giacomo et al. 2011, Bischof et al. 2015), and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving Linked Data resources.
+ 
+PROJECT OBJECTIVES
+ 
+The main focus of the cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the efficiency of querying and reasoning algorithms for large scale evolution of semantic data.
+ 
+OBJECTIVE 1: To investigate the types of contextual meta information (including time, but also other contextual dimensions) that is relevant to the problem of combining and reasoning with different versions of Linked Data sources, together with suitable representational languages and reasoning algorithms.
+ 
+OBJECTIVE 2: To investigate knowledge heterogeneity that may be introduced between the versions of Linked Data sources (e.g., one may choose to reify a property in the next version). And to find ways for recognition and treatment of these heterogeneities when combining multiple versions of an evolving data resource in reasoning.
+ 
+OBJECTIVE 3: To investigate specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
+ 
+OBJECTIVE 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolution. Especially, we will investigate applications of graph databases in KB evolution.
+ 
+REFERENCES
+ 
+Baader, F. et al. 2003. The Description Logic Handbook. Cambridge University Press.
 
-Such data sources are built with technologies crafted for the Semantics Web (SW), they are commonly represented using the Resource Description Framework (RDF) (Beckett, 2004) and it is aligned with semantic vocabularies (ontologies) commonly represented in OWL (W3C, 2012) whose semantic basis is derived from description logics (DL) (Baader et al., 2003).
-
-Currently the Linked Data cloud already shares a number of characteristics with big data, as the volumes of semantic data being posted are very large, and some of this data is also very dynamic and frequently updated (such as various data fed from weather or traffic information sensors, etc.) Thus, the process of large-scale semantic data archiving, and semantic evolution of data is now a highly relevant research area in knowledge management.
-
-Early approaches to semantic data archiving focus predominantly on the problem of version management and finding differences between different versions of the data. More recent research focuses also on the questions of effective querying and combining of data from different versions. The works in this direction were developed by Axel Polleres, Liliana Stojanovic, Grigoris Anotiou, but also the Chinese partner in this project, Guilin Qi has done substantial contribution in this area. The main limitations of these approaches is either in expressive power of the query language, but also with scalability, in particular to the extent of efficient reasoning support for ontology evolution with millions of RDF triples. [TODO check from Guilin + Add some cites]
-
-However, the evolution of knowledge in Linked Data brings also more complex use cases. Some resources may be combined, merged or remodelled due to enabling their reuse in new applications. The changes between versions should be characterized logically which would enable to pose expressive queries about them.
-
-Different knowledge resources are often modelled with different assumed context. Older proposals to handle the context on the Semantic Web include Named Graphs (Carroll et al. 2005); more research was developed in this direction and also the Slovak partner has collaborated on this topic (Homola et al. 2010, Serafini & Homola 2012). It is well known that a characterization of the change in the context between two knowledge resources may have an important influence of how the knowledge from one resource may be combined with another (Benerecetti et al. 2000). To our best knowledge, this problem was not yet applied in the area of evolution of Semantic Web or Linked Data knowledge resources where the characterization of the shift in context between two versions of the resource may be also very relevant.
-
-Another relevant problem in this respect, which is frequent between linked data reousces due to expressive limitations of the semantic languages used in linked data, such as RDF and OWL
-is the problem of semantic heterogenity. For example, it sometimes happens that clases or property relations may be represented as objects in some particular resources. Since the reasons for this practice  is justified, such chnagnes (which are very hard to align in reasoning) may be introduced also between two versions of one evolving resource. The Slovak partner has participated in prelimiary explorations of this topic (e.g. Svátek et al. 2013), however, further research applied in the area of linked data evolution and archiving is not known to us.
-
-Another approach that may be useful to reason about archived versions of Linked Data sources is metamodelling (i.e., when constructs from knowledge bases, such as classes, properties, or even statements are treated as elementary objects and are classified into metaclasses, modelled, and reasoned with). RDF already has limited support for metamodelling as its semantics is higher-order and it allows reification of statements (Hayes & Patel-Schneider 2014). Further proposals recently appeared with the aim to provide support for metamodelling with ontologies based on DL (Motik 2007) and OWL (Glimm et al. 2010). Researchers of the Slovak partners have also done some work in this area (Homola et al. 2014, Kubincová et al. 2015). Recently studies exploitating of metamodelling in expressive querying occured (De Giacomo et al. 2011, Bischof et al. 2015) and we believe that this approach (also called meta-querying) may be useful in improving the query expressivity over evolving linked data resources.
-
-*** Project Objectives ***
-
-The main focus of cooperation in this project will be on evolution of large-scale semantic data resources, where we would concentrate on improving the expressive power of version-based queries by applying the techniques from the areas of contextual knowledge representation and metamodelling, but in addition we will also focus on the effectivity of querying and reasoning algorithms for large scale evolution of semantic data.
-
-   Objective 1: To investigate the types of contextual meta information (including time, but also other contextual dimensions) that is relevant to the problem of combining and reasoning with different versions of LOD sources, together with suitable representational languages and reasoning algorithms.
-
-   Objective 2: To investigate knowledge heterogeneity that may be introduced between the versions of LOD data sources (e.g., one may choose to reify a property in the next version). And to find ways for recognition and treatment of these heterogeneities when combining multiple versions of an evolving data resource in reasoning.
-
-   Objective 3: Investigating on specific query languages aimed at capturing the required expressiveness for RDF versions, enabling reasoning and querying evolution patterns, while identifying restricted fragments to maintain scalability.
-
-   Objective 4: To develop efficient algorithms by balancing syntactic and semantic approaches to ontology evolving. Especially, we will investigate applications of graph databases in KB evolving.
-
-*** References ***
+Beckett, D. (2004). RDF/XML Syntax Specification (Revised). W3C Recommendation.
 
 Benerecetti, M., Bouquet, P., & Ghidini, C. (2000). Contextual reasoning distilled. Journal of Experimental & Theoretical Artificial Intelligence, 12(3), 279-305.
 
 Bischof, S., Krötzsch, M., Polleres, A., & Rudolph, S. (2015). Schema-Agnostic Query Rewriting for OWL QL. In: DL
 
-De Giacomo, G., Lenzerini, M., & Rosati, R. (2011). Higher-Order Description Logics for Domain Metamodeling. In AAAI.
-
-Baader, F. et al. 2003. The Description Logic Handbook. Cambridge University Press.
-
-Beckett, D. (2004). RDF/XML Syntax Specification (Revised). W3C Recommendation.
-
 Carroll, J. J., Bizer, C., Hayes, P., & Stickler, P. (2005). Named graphs. J Web Sem 3(4):247-267
 
-Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
+De Giacomo, G., Lenzerini, M., & Rosati, R. (2011). Higher-Order Description Logics for Domain Metamodeling. In AAAI.
 
-Svátek, V., Homola, M., Kľuka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In OWLED.
-
-Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
-
-Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
+Fernández, J.D., Polleres, A., Umbrich, J. (2015) Towards Efficient Archiving of Dynamic Linked Open Data. In Proc. of DIACRON@ESWC, pp. 34-49.
 
 Glimm, B., Rudolph, & S., Völker, J. (2010). Integrated metamodeling and diagnosis in OWL 2. In Proc. of ISWC, pp. 257-272.
 
-Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
+Hayes, P., & Patel-Schneider, P. F. (2014). RDF 1.1 Semantics. W3C Recommendation (February 25, 2014).
 
 Homola, M., Kľuka, J., Svátek, V., & Vacura, M. (2014). Typed Higher-Order Variant of SROIQ - Why Not? In DL, 567-578.
 
+Homola, M., Serafini, L., & Tamilin, A. (2010). Modeling contextualized knowledge. In Proc. of CIAO 2010.
+
+Huang, Z., Stuckenschmidt, H. (2005). Reasoning with Multi-version Ontologies: A Temporal Logic Approach. In Proc. of ISWC, pp. 398-412.
+
+Kubincová, P., Kľuka, J., & Homola, M. (2015). Towards Expressive Metamodelling with Instantiation. In DL.
+
+Motik, B. (2007): On the properties of metamodeling in OWL. J. Log. Comput 17(4), 617–637
+
+Noy, N.F., Chugh, A., Liu, W., Musen, M.A. (2006) A Framework for Ontology Evolution in Collaborative Environments. In Proc. of ISWC, pp. 544-558.
+
+Noy, N.F., Musen, M.A. (2002). PROMPTDIFF: A fixed-point algorithm for comparing ontology versions. In Proc. of AAAI-02, pp. 744-750.
+
+Qi, G., Wang, Z., Wang, K., Fu, X., Zhuang, Z. (2015). Approximating Model-Based ABox Revision in DL-Lite: Theory and Practice. In Proc. of AAAI, pp. 254-260.
+
+Stojanovic L. (2004). Methods and Tools for Ontology Evolution. PhD thesis, University of Karlsruhe (TH), Germany.
+
+Svátek, V., Homola, M., Kľuka, J., & Vacura, M. (2013). Metamodeling-Based Coherence Checking of OWL Vocabulary Background Models. In OWLED.
+
 W3C OWL WG, eds. (2012). OWL 2 Web Ontology Language Document Overview (2nd Ed). W3C Recommendation.
+
 
 
 PROJECT SCHEDULE AND ACTIVITIES WITH REGARD TO THE CALL (MAX. 6 000 CHARACTERS)
 
 The project activities will be split into two work packages:
-
-* WP1 (approx. Jan 2016-Mar 2017): Foundations of reasoning and querying of evolving data. In this work package we will focus on the theoretical foundations of ontology evolution and reasoning with/querying over evolving data and we will study (a) the contextual aspects of evolving Linked Data sources, (b) we will focus on metamodelling and how some aspects of evolving data may be captured by it, and (c) we will study the algorithmic side of reasoning and querying over evolving data from the theoretical point of view (complexity, effectiveness, optimization). We expect to propose improvements on the theoretical level and we expect that the first results will be published by the end of 2016 or early 2017.
-
-* WP2 (approx. Nov 2016-Dec 2017): Implementation and evaluation. In this work package we expect to build on the results from WP1 and work towards practical implementation of the most viable results. Towards this end we will rely on the existing ontology evolution infrastructure that is currently developed by the Chinese partner, which we will use as a base. However, we expect that results from WP1 will initiate substantial improvements in the implementation that will lead to improved reasoning capabilities and query expressivity, together with some optimization and overall boost in effectiveness. In the second half of WP2 we will also conduct empirical evaluation on suitable evolving datasets (e.g., obtained from the consecutive snapshots of DBPedia that are freely available). We expect first results to be published in the second half of 2017.
-
+ 
+● WP1 (approx. Jan 2016–Mar 2017): Foundations of reasoning and querying of evolving data.
+In this work package we will focus on the theoretical foundations of ontology evolution and reasoning with/querying over evolving data, in particular,
+(a) we will study the contextual aspects of evolving Linked Data sources,
+(b) we will focus on metamodelling and how some aspects of evolving data may be captured by it, and
+(c) we will study the algorithmic side of reasoning and querying over evolving data from the theoretical point of view (complexity, efficiency, optimization).
+We expect to propose improvements on the theoretical level and we expect that the first results will be published by the end of 2016 or early 2017.
+ 
+● WP2 (approx. Nov 2016–Dec 2017): Implementation and evaluation.
+In this work package we expect to build on the results from WP1 and work towards practical implementation of the most viable results. Towards this end we will rely on the existing ontology evolution infrastructure that is currently developed by the Chinese partner, which we will use as a base. However, we expect that results from WP1 will initiate substantial improvements in the implementation that will lead to improved reasoning capabilities and query expressivity, together with some optimization and overall boost in efficiency.
+In the second half of WP2 we will also conduct empirical evaluation on suitable evolving datasets (e.g., obtained from the consecutive snapshots of DBPedia that are freely available).
+We expect first results to be published in the second half of 2017.
+ 
 The half-a-year overlap between WP1 and WP2 will enable to start the work on the implementation as soon as first relevant theoretical results are achieved. 
-
 In the second part of 2017 we also plan to work on a major summary publication communicating the overall results of the project.
-
-*** Visits Plan ***
-
+ 
+VISITS PLAN
+ 
 The team is composed of three researchers on each side. We estimate that this will allow us to execute one visit per year on each side where the whole team from the other side will be part of the visit. The preliminary plan of visits:
-
-* First half of 2016: the Chinese team will visit the Slovak partner in Bratislava (approx. 5-7 days) - opening workshop, working meetings
-* Second half of 2016: the Slovak team will visit the Chinese partner in Nanjing (approx. 5-7 days) - working meetings
-* First half of 2017: the Chinese team will visit the Slovak partner in Bratislava (approx. 5-7 days) - working meetings
-* Second half of 2017: the Slovak team will visit the Chinese partner in Nanjing (approx. 5-7 days) - closing workshop, publication activity
+● First half of 2016: the Chinese team will visit the Slovak partner in Bratislava (approx. 5–7 days) – opening workshop, working meetings;
+● Second half of 2016: the Slovak team will visit the Chinese partner in Nanjing (approx. 5–7 days) – working meetings;
+● First half of 2017: the Chinese team will visit the Slovak partner in Bratislava (approx. 5–7 days) – working meetings;
+● Second half of 2017: the Slovak team will visit the Chinese partner in Nanjing (approx. 5–7 days) – closing workshop, publication activity.
 
 
 IMPORTANCE AND MEANINGFULNESS OF BILATERAL COOPERATION AT INTERNATIONAL PROJECT PARTICIPATION (MAX. 6 000 CHARACTERS)
 
-*** Benefits of the Collaboration ***
-
-The collaboration may generate added value on the Slovak side in terms of new joint research results and publications, experience and know how transfer in a highly relevant research area (see below). The joint project is justified by the fact that the expertise of both teams is complementary. The Chinese side brings expertise from the area of ontology evolution, and in addition a more practical research experience with a number of systems implemented and evaluated in the past, while the Slovak side brings the expertise more on the theoretical and foundational side in the respective areas of contextual knowledge representation, metamodelling and dealing with knowledge heterogeneity. The combined effort will bring different points of view, and may result in novel solutions and contribution w.r.t. the objectives of the project which would otherwise not be achieved.
-
-*** Complementary Expertise and Split of Responsibilities ***
-
-Work package WP1 will be coordinated by Martin Homola for the Slovak side and Zhizheng Zhang for the Chinese side. Both of them have substntial experince with foundationtial research. Martin Homola is an expert on contextual knowledge representation and we will build upon his unique expertise. For the first 9 months of the activity also Gulin Qi will be instrumentl in this activity to contribute with his unique experince with Ontology evolution, and Ján Kľuka will contribute with his expertise in knowledge heterogeneity and metamodelling. Júlia Pukancová, a PhD student on the Slovak side, will also be involved with this work package.
-
-Work package WP2 will be coordinated by Ján Kľuka for the Slovak side and by Guilin Qi for the Chinese side. Guilin Qi has vast experience with system implenetation in the area of otnology evolution which is a unique asset on the Chinese side. Ján Kľuka is also a skilled software developer. We expect strong contribution also from Zhangquan Zhou, the PhD student on the Chinese side who also has considerable experience with implenetations. The remaning members of the project will oversee the application of theoretical results achieved in WP1 and their correct implenetation in WP2. After WP1 is finalized these project members will fully join WP2 and coordinate the empirical evaluation of the implemented system.
+BENEFITS OF THE COLLABORATION
+ 
+The collaboration may generate added value on the Slovak side in terms of new joint research results and publications, experience and know how transfer in a highly relevant research area (see below). The joint project is justified by the fact that the expertise of both teams is complementary. The Chinese side brings expertise from the area of ontology evolution, and in addition a more practical research experience with a number of systems implemented and evaluated in the past, while the Slovak side brings the expertise more on the theoretical and foundational side in the respective areas of contextual knowledge representation, metamodelling, and dealing with knowledge heterogeneity. The combined effort will bring together different points of view, and may result in novel solutions and contributions towards the objectives of the project which would otherwise not be achieved.
+ 
+COMPLEMENTARY EXPERTISE AND SPLIT OF RESPONSIBILITIES
+ 
+Work package WP1 will be coordinated by Martin Homola for the Slovak side and Zhizheng Zhang for the Chinese side. Both of them have substantial experience with foundational research. Martin Homola is an expert on contextual knowledge representation and we will build upon his unique expertise. For the first 9 months of the activity also Gulin Qi will be instrumental in this activity to contribute with his unique experience with ontology evolution, and Ján Kľuka will contribute his expertise in knowledge heterogeneity and metamodelling. Júlia Pukancová, a PhD student on the Slovak side, will also be involved in this work package.
+ 
+Work package WP2 will be coordinated by Ján Kľuka for the Slovak side and by Guilin Qi for the Chinese side. Guilin Qi has vast experience with system implementation in the area of ontology evolution which is a unique asset on the Chinese side. Ján Kľuka is also a skilled software developer. We expect strong contribution also from Zhangquan Zhou, the PhD student on the Chinese side, who also has considerable experience with implementation. The remaining members of the project team will oversee the application of theoretical results achieved in WP1 and their correct implementation in WP2. After WP1 is finalized these project members will fully join WP2 and coordinate the empirical evaluation of the implemented system.
 
 THE ANTICIPATED CONTRIBUTION OF INTERNATIONAL RESEARCH COOPERATION FOR SLOVAKIA (SOCIO-ECONOMIC BENEFITS) (MAX. 6 000 CHARACTERS)
 
-The project pursues relevant research objectives in the area of knowledge representation and particularly LOD. Extending the capabilities of World Wide Web as we know it today, and fostering effective data reuse in end-user but as well B2B applications the socio-economic contribution of LOD is already extensive. We expect particular innovations in archiving, management and reuse of large linked data sources as the outcome of this project which will further increase its socio-economic impacts on the society. Particularly, we expect to contribute to the technology that makes it possible to
-
-● use existing vast linked data resources more efficiently in terms smaller storage and computational costs
-● combine and explore various versions of linked data resources to higher degree in terms of the ability to find relevant data and to understand better the changes on it over time and that are result of evolution
-● in the future, to manage larger linked data resources than it is currently possible
-
-In addition, the initiation of collaboration with the group of Guilin Qi at Southeast University, who is among the leading researchers in the area of ontology evolution in Asia is of a great value to our research group and to our university. He has published a number of publications connected to the topic of ontology evolution, and he has lead and collaborated in a number of high-profile research projects, national and international. Our collaboration with his group will result in valuable exchange of experience, and transfer of know how. As part of the project we plan to host seminars that will be open also to the students and scientific public which will further extend the outreach of this collaboration. We believe that we will be able to transfer the gained experience also to the students of our faculty (especially those specializing in artificial intelligence).
-
+The project pursues relevant research objectives in the area of knowledge representation and particularly Linked Data. Extending the capabilities of World Wide Web as we know it today, and fostering efficient data reuse in end-user but as well B2B applications, the socio-economic contribution of Linked Data is already extensive. We expect particular innovations in archiving, management and reuse of large Linked Data sources as the outcome of this project which will further increase its socio-economic impacts on the society. Particularly, we expect to contribute to the technology that makes it possible to
+● use existing vast Linked Data resources more efficiently in terms smaller storage and computational costs;
+● combine and explore various versions of Linked Data resources to a higher degree in terms of the ability to find relevant data and to understand better their changes over time resulting from evolution;
+● in the future, to manage larger Linked Data resources than is currently possible.
+ 
+Additionally, the initiation of collaboration with the group of Guilin Qi at Southeast University, who is among the leading researchers in the area of ontology evolution in Asia, is of a great value to our research group and to our university. He has published a number of publications connected to the topic of ontology evolution, and he has lead and collaborated in a number of high-profile research projects, national and international. Our collaboration with his group will result in valuable exchange of experience, and transfer of know how. As part of the project we plan to host seminars that will be open also to the students and scientific public, which will further extend the outreach of this collaboration. We believe that we will be able to pass the experience gained also to the students of our faculty (especially those specializing in artificial intelligence).
 This collaboration may improve our ties with the international research community and may result in additional added value in form of future international joint research proposals.
 
 
 CHARACTERISTICS OF THE RESEARCH TEAM IN TERMS OF PROFESSIONAL ORIENTATION OF THE PROPOSED RESEARCH PLAN/OBJECTIVE ON THE SLOVAK SIDE AS WELL AS IN TERMS OF INVOLVEMENT OF PHD STUDENTS AND/OR YOUNG R&D STAFF (UP TO 35 YEARS) IN THE PROJECT (MAX. 6 000 CH.)
 
-***Slovak team***
+ 
+SLOVAK TEAM
+ 
+The Slovak team consists of two researchers and one PhD student who are part of the Knowledge Representation research group at the Dept. of Applied Informatics, Fac. of Mathematics, Physics and Informatics, Comenius University in Bratislava (DAI FMFI UK). The team members’ research interests are connected to knowledge representation, including such areas as SW and LOD representation languages, metamodelling, and representing and reasoning with context, which is well aligned with the proposed project. The Slovak side includes one young researcher under 35 years (the principal investigator) and also one PhD student.
+ 
+MARTIN HOMOLA is an assistant professor at DAI FMFI UK. His research interests include knowledge representation, ontologies, distributed and contextual reasoning.  He was also involved with more applied research involving knowledge architecture for telemedical systems. He earned his PhD from Comenius University in 2010. He worked as a postdoc in FBK, Trento, Italy, under supervision of Luciano Serafini, one of the leading researchers in contextualized knowledge representation. During his stay in Trento he was involved in research on contextualized representation for Semantic Web data. He co-authored 4 journal articles, 3 invited book chapters, and over 30 peer-reviewed papers published on international workshops and conferences. Since 2012 he is a co-chair of the International Workshop on Acquisition, Representation and Reasoning about Context with Logic (ARCOE-Logic) and has served in the PC of conferences and workshops such as SOFSEM, KESW, Znalosti, and WIKT. He served as reviewer for Web Semantics; Knowledge-Based Systems; and Applied Ontology journals. He has been involved in multiple national and bilateral projects. He is also active in pedagogical practice, teaching courses on computational logic, knowledge representation, and web technology. He has supervised more than 10 master students and a number of bachelor students.
+ 
+JÁN KĽUKA is an assistant professor at DAI FMFI UK. He earned his PhD in computer science in 2010. He authored or co-authored 10 peer-reviews papers presented at international conferences and workshops. His professional interests include description logics and ontologies, declarative programming, first- and second-order logic and arithmetic, program correctness, descriptive complexity, methods of automated deduction, and web technologies. He co-developed the programming language CL with a semi-automated theorem prover and a web-based interface. He has supervised or is currently supervising 4 master and a number of bachelor students.
+ 
+JÚLIA PUKANCOVÁ is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies. She has already co-authored one workshop paper.
+ 
+CHINESE TEAM
+ 
+DR. GUILIN QI is a professor working at Southeast University (SEU) in China.  He is the leader of the Knowledge Science and Engineering group at SEU and is the deputy director of the Web Science Institute at SEU. He is a professional member of ACM and a member of China Computer Federation. He received his PhD in Computer Science from Queen's University of Belfast in 2006. Before he moved back to China in 2009, he has worked in Institute AIFB at University of Karlsruhe for three years. His research interests include artificial intelligence, knowledge representation and reasoning, and semantic web. He has published over 100 papers in these areas, many of which published in proceedings of major conferences or journals. He is in the editorial board of the Journal of Web Semantic. He is an associate editor of the Journal of Advances in Artificial Intelligence and has co-edited a special issue of Annals of Mathematics and Artificial Intelligence. He is a co-Chair of the Poster and Demo track of ISWC 2011 and JIST 2013, and he is a co-Chair of the Poster and Demo track of EKAW 2014. He is a PC Co-Chair of Chinese Semantic Web Symposium (CSWS) in 2009 and 2012, and is a Co-Chair of CSWS 2013. He has organized a couple of international workshops, including C&O 2008, ARCOE 2009–10, WoDOOM 2012-14, WL4AI 2015. He has served as PC members of several international conferences and workshops, such as KR 2012, ECAI 2012–14, IJCAI 2011–15, AAAI 2011–15, ESWC 2011–15, ISWC 2009–15.
+ 
+ZHIZHENG ZHANG is an Associate Professor in the School of Computer Science & Engineering at SEU where he has been a faculty member since 2003. He was a visiting scholar at the knowledge representation lab at Texas Tech University from 2010 to 2011, and research fellow at the intelligent system lab at Western Sydney University from 2012 to 2013. His research interests lie in the area of declarative programming languages, answer set programming, preference handling, reasoning about action, contextual reasoning. He has published about 20 papers in international journals or conferences, some of them are published in top conferences like AAAI and KR.
+ 
+ZHANGQUAN ZHOU is a PhD student in the School of Computer Science & Engineering at SEU. His research interests include knowledge representation and reasoning, and Semantic Web. He is mainly working on parallel reasoning in Semantic Web now. He has published 4 papers in international conferences and workshops.
 
-The team consists of two researchers and one PhD student who are part of the Knowledge Representation research group at the Dept. of Applied Informatics, Fac. of Mathematics, Physics and Informatics, Comenius University in Bratislava (DAI FMFI UK). The team members’ research interests are connected to knowledge representation, including such areas as SW and LOD representation languages, metamodelling, and representing and reasoning with context, which is well aligned with the proposed project. The Slovak side includes 1 young researcher under 35 years (the principal investigator) and also one PhD student.
-
-Martin Homola is an assistant professor at DAI FMFI UK. His research interests include knowledge representation, ontologies, distributed and contextual reasoning.  He was also involved with more applied research involving knowledge architecture for telemedical systems. He earned his PhD from Comenius University in 2010. He worked as a postdoc in FBK, Trento, Italy, under supervision of Luciano Serafini, one of the leading researchers in contextualized knowledge representation. During his stay in Trento he was involved in research on contextualized representation for Semantic Web data. He co-authored 4 journal articles, 3 invited book chapters, and over 30 peer-reviewed papers published on international workshops and conferences. Since 2012 he is a co-chair of the International Workshop on Acquisition, Representation and Reasoning about Context with Logic (ARCOE-Logic) and has served in the PC of conferences and workshops such as SOFSEM, KESW, Znalosti, and WIKT. He served as reviewer for Web Semantics; Knowledge-Based Systems; and Applied Ontology journals. He has been involved in multiple national and bilateral projects. He is also active in pedagogical practice, teaching courses on computational logic, knowledge representation, and web technology. He has supervised more than 10 master students and a number of bachelor students.
-
-Ján Kľuka is an assistant professor at DAI FMFI UK. He earned his PhD in computer science in 2010. He authored or co-authored 10 papers presented at international conferences and workshops. His professional interests include description logics and ontologies, declarative programming, first- and second-order logic and arithmetic, program correctness, descriptive complexity, methods of automated deduction, and web technologies. He co-developed the programming language CL with a semi-automated theorem prover and a web-based interface.
-
-Júlia Pukancová is a PhD student at DAI FMFI UK, where she received Master's degree in 2014. Her recent interest is knowledge architecture and reasoning services for telemedical data, in particular analytical and diagnostic reasoning on top of ontologies.  She has already co-authored one workshop paper.  
-
-***Chinese team***
-
-Dr. Guilin Qi is a professor working at Southeast University (SEU) in China.  He is the leader of the Knowledge Science and Engineering group at SEU and is the deputy director of the Web Science Institute at SEU. He is a professional member of ACM and a member of China Computer Federation. He received his PhD in Computer Science from Queen's University of Belfast in 2006. Before he moved back to China in 2009, he has worked in Institute AIFB at University of Karlsruhe for three years. His research interests include artificial intelligence, knowledge representation and reasoning, and semantic web. He has published over 100 papers in these areas, many of which published in proceedings of major conferences or journals. He is in the editorial board of the Journal of Web Semantic. He is an associate editor of the Journal of Advances in Artificial Intelligence and has co-edited a special issue of Annals of Mathematics and Artificial Intelligence. He is a co-Chair of the Poster and Demo track of ISWC’2011 and JIST’2013, and he is a co-Chair of the Poster and Demo track of EKAW’14. He is a PC co-Chair of Chinese Semantic Web Symposium (CSWS) in 2009 and 2012, and is a Co-Chair of CSWS2013 . He has organized a couple of international workshops, including C&O'08, ARCOE 09-10, WoDOOM2012-2014, WL4AI2015. He has served as PC members of several international conferences and workshops, such as KR'12, ECAI'12-14, IJCAI'11-15, AAAI11-15, ESWC11-15, ISWC09-15.
-
-Zhizheng Zhang is an Associate Professor in the School of Computer Science & Engineering at Southeast University where he has been a faculty member since 2003. He was visiting scholar at the knowledge representation lab at Texas Tech University from 2010 to 2011, and research fellow at the intelligent system lab at Western Sydney University from 2012 to 2013. His research interests lie in the area of declarative programming languages, answer set programming, preference handling, reasoning about action, contextual reasoning. He has published about 20 papers in international journals or conferences, some of them are published in top conferences like AAAI and KR.
-
-Zhangquan Zhou is a PhD student in the School of Computer Science & Engineering at Southeast University. His research interests include knowledge representation and reasoning, and Semantic Web. He is mainly working on parallel reasoning in Semantic Web now. He has published four papers in international conferences and workshops.
